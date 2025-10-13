@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Faune";
+    src: url("woff2/Faune-Text_Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Faune";
+    src: url("woff2/Faune-Text_Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+
+h1 {
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+
+
+h1{
+    color:chartreuse; 
+}
+
+p{
+     font-family: "Faune",sans-serif;
+    color:tomato;
+    font-size:21px;
+}
+
+.chapo{
+    font-size: 48px;
+}
+
+.header{
+    padding:48px;
+    margin:48px;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap:24px;
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: span 2;
+}
